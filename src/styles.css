@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Barlow", "Segoe UI", sans-serif;
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --color-canvas: #10140f;
+  --color-panel: #182117;
+  --color-panel-2: #243024;
+  --color-ink: #f3f6ef;
+  --color-muted: #93a08c;
+  --color-line: #31402e;
+  --color-flag: #d6ff3c;
+  --color-flag-ink: #142006;
+  --radius-card: 1.25rem;
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    min-height: 100vh;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+    background-color: var(--color-canvas);
+    background-image:
+      linear-gradient(180deg, rgb(0 0 0 / 0.28), rgb(0 0 0 / 0.4)),
+      url("/wallpaper-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+
+  .on-wallpaper {
+    text-shadow:
+      0 1px 2px rgb(0 0 0 / 0.9),
+      0 6px 22px rgb(0 0 0 / 0.85);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rise {
+    animation: rise 420ms ease both;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

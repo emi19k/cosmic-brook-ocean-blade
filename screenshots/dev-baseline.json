@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Córners turbo sacados",
+      "hasCanvas": false,
+      "bodyTextLen": 585,
+      "bodyTextHash": "0fd379305d6983ac4bcb9c58c1d55c9134ee00767fe8b295bde846ab44a026bf",
+      "bodyTextPrefix": "CÓRNERS TURBO SACADOS Últimos 10 de cada lado CUÁNTOS CÓRNERS PU",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Córners turbo sacados",
+      "hasCanvas": false,
+      "bodyTextLen": 585,
+      "bodyTextHash": "0fd379305d6983ac4bcb9c58c1d55c9134ee00767fe8b295bde846ab44a026bf",
+      "bodyTextPrefix": "CÓRNERS TURBO SACADOS Últimos 10 de cada lado CUÁNTOS CÓRNERS PU",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
